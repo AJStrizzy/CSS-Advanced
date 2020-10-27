@@ -1,0 +1,40 @@
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.container2 {
+    background-color: blue;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+
+}
+
+.comtainer1:hover > .container3 {
+    color: blue;
+    cursor: pointer;
+} 
+
+.container2:hover {
+    cursor:pointer;
+    color: red;
+    background-color: purple;
+}
+
+/* (add style to everything you want to change depending on media device); */
+
+@media (max-width: 600px) {  
+    .container {
+        background-color: red;     
+        height: 150px;
+        width: 350px; 
+    }
+    .container2 {
+        background-color: yellow;
+        text-align: right;
+        width: 350px;
+        height: 150px;
+    }
+}
